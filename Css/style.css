@@ -1,0 +1,91 @@
+/* common css start */
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #7e8287;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin:0 auto;
+}
+.row{
+    display:flex;
+}
+
+/* common css end */
+/* nav css start */
+nav{
+    background-color: #02918c;
+}
+nav .row{
+    justify-content: space-between;
+    align-items:center;
+}
+
+nav div ul li a{
+    text-transform: uppercase;
+    display: inline-block;    
+    padding:26px 25px;
+    font-size: 12px;
+    font-weight: 800;
+    color:#fff;
+}
+/* nav css end */
+/* banner css start */
+#banner{
+    background-image: url(../Images/hero_img.jpg);
+    height:728px;
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    color:#fff
+    
+    
+}
+#banner p{
+    font-size: 30px;
+    text-align: center;
+    
+}
+#banner h1{
+    font-size: 68px;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+#banner .p2{
+    font-size: 18px;
+
+}
+.banner_img{
+    display: block;
+    margin: auto;
+    padding:51px;
+}
+.button{
+    display: block;
+    height: 47px;
+    width:196px;
+    background-color: #cfc91d;
+    font-weight: 800;
+    color:#0b1016;
+    letter-spacing: 2px;
+    padding:12px;
+    text-align: center;
+    margin: 0 auto;
+    
+    border: none;
+}
+/* banner css end */
