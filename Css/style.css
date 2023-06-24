@@ -24,6 +24,39 @@ h1,h2,h3,h4,h5,h6,b,a{
 }
 .row{
     display:flex;
+    flex-wrap: wrap;
+}
+.section_info{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.section_info h2{
+    font-size: 46px;
+    text-transform: uppercase;
+    color: #02918c;
+}
+.section_info p{
+    font-size: 16px;
+    line-height: 41px;
+
+}
+.section_item{
+    width: 25%;
+    text-align: center;
+    padding:36px 65px;
+    border-right:1px solid #d9dbdb;
+}
+.section_item:last-child{
+    border-right-color: transparent;
+}
+.section_item h3{
+    font-size: 16px;
+    line-height: 23px;
+    padding:29px 0;
+}
+.section_item p{
+    font-size: 11px;
+    line-height: 21px;
 }
 /* common css end */
 /* nav css start */
@@ -95,41 +128,12 @@ nav div ul li a:hover{
     padding:98px 0;
 }
 #about .section_info{
-    text-align: center;
     padding: 0 137px;
-    margin-bottom: 80px;
-}
-#about .section_info h2{
-    font-size: 46px;
-    text-transform: uppercase;
-    color: #02918c;
-}
-#about .section_info p{
-    font-size: 16px;
-    line-height: 41px;
-
 }
 #about .section_info p b{
     font-size:23px;  
 }
-#about .about_item_container .about_item{
-    width: 25%;
-    text-align: center;
-    padding:36px 65px;
-    border-right:1px solid #d9dbdb;
-}
-#about .about_item_container .about_item:last-child{
-    border-right-color: transparent;
-}
-#about .about_item_container .about_item h3{
-    font-size: 16px;
-    line-height: 23px;
-    padding:29px 0;
-}
-#about .about_item_container .about_item p{
-    font-size: 11px;
-    line-height: 21px;
-}
+
 /* about css end */
 /* service css start */
 #service{
@@ -137,26 +141,20 @@ nav div ul li a:hover{
     background-image: linear-gradient(rgba(255,255,255,0.68), rgba(255,255,255,0.75)), url(../Images/service_img.jpg);
     background-repeat: no-repeat;
     background-position: right ;
-    padding:74px 66px;
+    padding:74px 0;
 }
 #service .inner_container{
     width:50%;
 }
-#service .inner_container .service_info h2{
-    color: #02918c;
-    font-size: 46px;
+#service .section_info{
+    text-align: left;
 }
-#service .inner_container .service_info p{
-    font-size: 16px;
-    line-height: 41px;
-}
-#service .inner_container .service_items{
-    flex-wrap: wrap;
-}
-#service .inner_container .service_items .service_item{
+#service .inner_container .service_items .section_item{
     width: 50%;
     padding:56px 0;
     padding-right:126px;
+    text-align: left;
+    border: none;
 }
 #service .inner_container .service_items .service_item h3{
     font-size: 16px;
@@ -169,17 +167,15 @@ nav div ul li a:hover{
 }
 /* service css end */
 /* my work css start */
-/* #my_work .container{
+#my_work .container{
     text-align: center;
     padding:110px 237px;
 }
-#my_work .container h2{
-    color:#02918c;
-    font-size:46px;
-    text-transform: uppercase;
+#mywork .mywork_photos .photo{
+    width: 100%;
 }
-#my_work .container p {
-    font-size:16px;
-    line-height: 41px;
-} */
+#mywork .mywork_photos img{
+    display: block;
+    width: 100%;
+}
 /* my work css end */
