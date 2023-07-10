@@ -15,7 +15,7 @@ ul{
 a{
     text-decoration: none;
 }
-h1,h2,h3,h4,h5,h6,b,a{
+h1,h2,h3,h4,h5,h6,b,a,button{
     font-weight: 800;
 }
 .container{
@@ -167,15 +167,66 @@ nav div ul li a:hover{
 }
 /* service css end */
 /* my work css start */
+#my_work{
+    padding:110px 0;
+}
 #my_work .container{
     text-align: center;
-    padding:110px 237px;
+    padding:0 237px;
 }
-#mywork .mywork_photos .photo{
+
+#my_work .mywork_photos .photo{
+    width: 25%;
+}
+#my_work .mywork_photos img{
+    display:block;
+    height: 100%;
     width: 100%;
 }
-#mywork .mywork_photos img{
-    display: block;
-    width: 100%;
-}
+
 /* my work css end */
+/* contact css start */
+#contact .containter{
+    padding:0 237px;
+}
+/* #form {
+    background-color: #0b0b0b;
+    padding: 70px 0;
+}
+#form input,textarea{
+    display: block;
+    margin: 0 auto;
+    background: none;
+    border:none;
+    border-bottom: 1px solid #898989;
+    padding: 18px 0;
+    font-size: 16px ;
+    text-align: center;
+    line-height: 41px;
+    margin-bottom: 55px;
+}
+#form .small-width{
+    width: 637px;
+}
+#form .large-width{
+    width:937px;
+}
+#form textarea{
+    resize: none;
+}
+#form button{
+    background-color: #cfc91d;
+    padding:17px 65px;
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#form button:hover{
+    color:#fff;
+    background-color: #02918c;
+} */
+/* contact css end */
